@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+
+.sidebar{
+  background-color: #e7e5e5;
+    width: 15%;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+  /*  background-color: yellow; */
+    width: 85vw;
+}
+
+.InfoContainer{
+   /* background-color: rgb(198, 68, 143); */
+    width: 80vw;
+    height: 58vh;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+
+.moreAbout{
+    font-size: 22px;
+    font-family: 'fira sans', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:  dodgerblue;
+    color: white;
+    transform: scale(1.1);
+    
+}
+
+.devPic img{
+    height: 58vh;
+    
+}
+
+/*contact portion */
+
+.contactform{
+   padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'fira sans', sans-serif;    
+}
+
+.contactform h1{
+    font-family: monospace;
+    text-align: center;    
+}
+
+.emailhelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px;
+
+}
+
+.contactform div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.contactform div input{
+    padding: 10px 0;
+    width: 26vw;
+    margin: 6px 0;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
